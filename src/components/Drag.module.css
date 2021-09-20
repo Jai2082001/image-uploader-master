@@ -1,0 +1,43 @@
+.parentDiv {
+    position: relative;
+    width: 350px;
+    height: 300px;
+}
+
+.backgroundDiv {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.backgroundDiv svg {
+    width: 200px;
+    height: 200px;
+}
+
+.dragDiv {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 4000;
+    border: 5px dotted rgb(48, 145, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropDiv {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 4000;
+    border: 5px solid lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

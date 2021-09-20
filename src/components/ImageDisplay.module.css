@@ -1,0 +1,65 @@
+.introDiv {
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.69);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.69);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.tickDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    color: #4F4F4F;
+}
+
+.tickDisplay i {
+    background-color: white;
+    color: #219653;
+    font-size: 20px;
+}
+
+.imgDiv {
+    width: 300px;
+    height: 300px;
+}
+
+.imgDiv img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.copyDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.copyBtn {
+    margin-left: -68px;
+    padding: 8px 6px;
+    background-color: #2F80ED;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.copyBtn:active {
+    color: #2F80ED;
+    background-color: whitesmoke;
+}
+
+.copyInput {
+    padding: 8px 6px;
+    width: 90%;
+}
